@@ -17,6 +17,7 @@ export default function Dashboard() {
 
       <Components.Sections.Work />
       <Components.Sections.Menu />
+      <Components.Sections.Testimonial />
       <Components.Sections.Help />
 
       <Components.Footer />
