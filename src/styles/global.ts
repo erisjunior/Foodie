@@ -9,7 +9,6 @@ export default createGlobalStyle`
     outline: 0;
     box-sizing: border-box;
     z-index: 1;
-    overflow: hidden;
   }
 
   *:focus {
@@ -22,6 +21,7 @@ export default createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialised;
+    overflow-x: hidden;
   }
 
   body, input, button {

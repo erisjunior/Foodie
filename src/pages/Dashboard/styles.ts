@@ -6,6 +6,8 @@ export const Container = styled.div`
   flex-direction: column;
 
   padding: 20px 10%;
+
+  background: linear-gradient(to bottom, white, #f8f8f8);
 `;
 
 export const Background = styled.div`

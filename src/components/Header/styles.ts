@@ -19,6 +19,7 @@ export const Container = styled.header`
 
     li {
       margin: 0px 20px;
+      cursor: pointer;
     }
   }
 `;
@@ -28,6 +29,8 @@ export const Logo = styled.div`
   height: 50px;
 
   border-radius: 10px;
+
+  cursor: pointer;
 
   background: ${({ theme }) => theme.colors.primary};
 `;
@@ -45,7 +48,7 @@ export const Dot = styled.div`
   background: ${({ theme }) => theme.colors.primary};
   border-radius: 100%;
 
-  -webkit-transform: translate(22px);
-  -moz-transform: translate(22px);
-  transform: translate(22px);
+  -webkit-transform: translate(22px, 5px);
+  -moz-transform: translate(22px, 5px);
+  transform: translate(22px, 5px);
 `;
