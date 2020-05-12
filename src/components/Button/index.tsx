@@ -4,12 +4,19 @@ import { ButtonContainer } from './styles';
 
 type ButtonProps = {
   text: React.ReactNode;
+  color: string;
+  background: string;
   onClick: () => void;
 };
 
-function Button({ text, onClick, ...rest }: ButtonProps) {
+function Button({ text, color, background, onClick, ...rest }: ButtonProps) {
   return (
-    <ButtonContainer onClick={onClick} {...rest}>
+    <ButtonContainer
+      color={color}
+      background={background}
+      onClick={onClick}
+      {...rest}
+    >
       {text}
     </ButtonContainer>
   );

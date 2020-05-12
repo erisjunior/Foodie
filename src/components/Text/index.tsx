@@ -2,8 +2,8 @@ import React from 'react';
 
 // import { Container } from './styles';
 
-function Icon() {
+function Text() {
   return <div />;
 }
 
-export default Icon;
+export default Text;

@@ -1,13 +1,20 @@
 import React from 'react';
 
-import { Container } from './styles';
+import * as Components from '~/components';
 
-import { Button } from '~/components';
+import { Container, Background } from './styles';
 
 export default function Dashboard() {
   return (
     <Container>
-      <Button text={<p>aaaa</p>} onClick={() => {}} />
+      <Background />
+      <Components.Header />
+      <Components.Sections.Main />
+      <Components.Sections.About />
+      <Components.Sections.Main />
+      <Components.Sections.Menu />
+      <Components.Sections.Help />
+      <Components.Footer />
     </Container>
   );
 }

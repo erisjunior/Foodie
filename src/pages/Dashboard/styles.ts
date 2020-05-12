@@ -3,45 +3,24 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   align-content: center;
-  justify-content: center;
   flex-direction: column;
 
-  padding: 20px;
+  padding: 20px 10%;
 `;
 
-export const Section = styled.div`
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  text-align: center;
+export const Background = styled.div`
+  width: 65%;
+  height: 50vw;
 
-  padding: 20px;
-  margin: 20px;
-`;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
 
-export const InputsContainer = styled(Section)`
-  flex-direction: column;
-`;
+  background: ${({ theme }) => theme.colors.primary};
+  border-radius: 100%;
 
-export const ChartContainer = styled(Section)`
-  width: 500px;
-  height: 300px;
-
-  display: flex;
-  align-content: center;
-  justify-content: center;
-`;
-
-export const Title = styled.p`
-  font-size: 40px;
-  color: #179;
-
-  text-align: center;
-`;
-
-export const SubTitle = styled(Title)`
-  font-size: 18px;
-  color: #333;
-
-  text-align: justify;
+  -webkit-transform: translate(350px, -400px);
+  -moz-transform: translate(350px, -400px);
+  transform: translate(350px, -400px);
 `;
