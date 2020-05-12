@@ -97,7 +97,7 @@ export const Info = styled.div`
     justify-content: center;
 
     width: 300px;
-    height: 15vh;
+    height: 20vh;
 
     margin: 0 50px;
 

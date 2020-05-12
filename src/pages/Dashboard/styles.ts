@@ -7,7 +7,7 @@ export const Container = styled.div`
 
   padding: 20px 10%;
 
-  background: linear-gradient(to bottom, white, #f8f8f8);
+  background: #f8f8f8;
 `;
 
 export const Background = styled.div`
@@ -25,4 +25,13 @@ export const Background = styled.div`
   -webkit-transform: translate(350px, -400px);
   -moz-transform: translate(350px, -400px);
   transform: translate(350px, -400px);
+
+  &.middle {
+    height: 60vw;
+    left: 0;
+
+    -webkit-transform: translate(-70%, 1500px);
+    -moz-transform: translate(-70%, 1500px);
+    transform: translate(-70%, 1500px);
+  }
 `;

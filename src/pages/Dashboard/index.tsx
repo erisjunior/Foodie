@@ -8,12 +8,17 @@ export default function Dashboard() {
   return (
     <Container>
       <Background />
+
       <Components.Header />
       <Components.Sections.Main />
       <Components.Sections.About />
+
+      <Background className='middle' />
+
       <Components.Sections.Work />
       <Components.Sections.Menu />
       <Components.Sections.Help />
+
       <Components.Footer />
     </Container>
   );
