@@ -6,7 +6,11 @@ https://dribbble.com/shots/11246595-Foodie-Landing-Page/attachments/2854634?mode
 
 (Não utilizei imagens e fontes originais, apenas placeholders)
 
+### Proposta Inicial
+
 ![Exemplo da Interface](example.jpg)
+
+### Resultado Final
 
 ![Interface Final](final.png)
 
